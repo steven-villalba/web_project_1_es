@@ -19,9 +19,14 @@
 /**
  * Remove the margin in all browsers.
  */
-
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+*,*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 /**
@@ -39,7 +44,6 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
 }
 
 /* Grouping content

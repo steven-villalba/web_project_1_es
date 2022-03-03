@@ -24,7 +24,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background-color: #F2F2F2 ;
+  background-color: #F2F2F2;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -59,7 +59,7 @@
 }
 .header__link {
   text-decoration: none;
-  color: #2F80ED ;
+  color: #2F80ED;
 }
 .header__main-illustration {
   height: 608px;
@@ -251,6 +251,7 @@
   padding-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
+  list-style: none;
 }
 .footer__list_all:last-of-type {
   padding-bottom: 90px;

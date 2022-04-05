@@ -39,8 +39,7 @@
 }
 .logo {
   width: 154px;
-  height: 31px;
-  padding: 30px 64px;
+  margin: 30px 64px;
 }
 .logo_place_header {
   position: absolute;
@@ -56,7 +55,7 @@
 }
 .header__subtitle {
   width: 388px;
-  padding: 0 0 30px 64px;
+  margin: 0 0 30px 64px;
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
@@ -79,10 +78,10 @@
 .header__square {
   height: 568px;
   width: 568px;
-  padding-top: 64px;
   background-color: #2F80ED;
   position: absolute;
   right: 0;
+  top: 64px;
   z-index: 0;
 }
 
@@ -99,14 +98,20 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  padding-right: 60px;
   color: #2F80ED;
+  margin: 0;
+}
+.two-columns__main-text {
+  margin-left: 60px;
 }
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   padding-bottom: 30px;
+}
+.two-columns__paragraph:first-of-type {
+  margin-top: 0;
 }
 .two-columns__paragraph:last-of-type {
   padding-bottom: 0px;
@@ -238,7 +243,6 @@
   height: 35px;
 }
 .footer__author {
-  padding: 18px 0;
   position: absolute;
   bottom: 0;
   line-height: 25px;
@@ -253,6 +257,8 @@
   display: flex;
   flex-direction: column;
   padding-top: 20px;
+  padding-left: 0;
+  margin: 0;
 }
 .footer__list_all {
   padding-bottom: 20px;

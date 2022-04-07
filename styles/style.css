@@ -38,13 +38,11 @@
   flex-direction: column;
   justify-content: center;
 }
-.logo {
-  width: 154px;
-  margin: 30px 64px;
-}
 .logo_place_header {
   position: absolute;
-  top: 0;
+  width: 154px;
+  top: 30px;
+  left: 64px;
   z-index: 1;
 }
 .header__title {
@@ -57,12 +55,12 @@
 }
 .header__subtitle {
   width: 388px;
-  margin: 0 0 30px 64px;
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
   position: absolute;
-  bottom: 0px;
+  bottom: 30px;
+  left: 64px;
   z-index: 3;
 }
 .header__link {

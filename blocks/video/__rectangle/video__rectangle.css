@@ -1,0 +1,8 @@
+.video__rectangle {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: #F2F2F2;
+  z-index: 0;
+  bottom: 0px;
+}

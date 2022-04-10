@@ -1,0 +1,9 @@
+.footer__list_all {
+  padding-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  list-style: none;
+}
+.footer__list_all:last-of-type {
+  padding-bottom: 90px;
+}

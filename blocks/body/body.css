@@ -1,0 +1,56 @@
+.body {
+  box-sizing: border-box;
+}
+*,*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+.page {
+  min-width: 1100px;
+  /* we don't know how to make mobile versions of websites yet, */
+  /* so here we've set a minimum page width */
+  max-width: 1600px;
+  /* here we've set a maximum page width */
+  margin: 0 auto;
+  /* this ensures that all content is centered on screens wider than 1600px */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+.title-all {
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+.subtitle-all {
+  text-align: center;
+  margin: 0 auto;
+}
+.section-title {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  padding: 100px 0 20px;
+}
+.section-subtitle {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+}
+.rotation {
+  animation: rotate 20s linear infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.effect {
+  opacity: 1;
+  transition: opacity .5s ease-out;
+}
+.effect:hover {
+  opacity: .5;
+}
